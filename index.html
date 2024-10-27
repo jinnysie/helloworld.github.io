@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>UI Elements</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Pernyataan "Hello World" biasanya digunakan sebagai contoh sederhana untuk memperkenalkan bahasa pemrograman.</p>
+
+    <div class="image-slider">
+        <img id="slider-img" src="images1.png" alt="Image Slider">
+        <div class="controls">
+            <button onclick="prevImage()">&#10094;</button>
+            <button onclick="nextImage()">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="toggle-container">
+        <label class="switch">
+            <input type="checkbox" id="toggle" onclick="toggleFunction()">
+            <span class="slider"></span>
+        </label>
+        <span id="toggle-status">Off</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
