@@ -1,5 +1,5 @@
 let currentIndex = 0;
-const images = ["images1.png", "images2.jpg", "images3.jpg"]; // Ganti dengan nama file gambarmu
+const images = ["images/images1.png", "images/images2.jpg", "images/images3.jpg"]; // Ganti dengan nama file gambarmu
 
 function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
